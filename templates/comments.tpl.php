@@ -38,8 +38,6 @@ include 'header.tpl.php';
 
             echo "<div class='well'>
         <div class='media'>
-        <a class='pull-left' href='#'>
-            <img class='media-object' src=''></a>
             <div class='media-body'>
             <form action='" . BASE . "comments/insertd/id/" . $data[$x]['id'] . "' method='post'><textarea rows='5' cols='100' name='insert' placeholder='Add your comment here'></textarea>
             <p class='text-right'><input type='submit' value='Send'></p></form>
